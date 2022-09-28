@@ -8,7 +8,7 @@ const HOST = '0.0.0.0';
 
 // App
 const app = express();
-app.get('/sample', (req, res) => {
+app.get('/hello', (req, res) => {
   res.send('<h2 style="color: red"> Unimity Assessment Output<h2>');
 });
 
