@@ -3,12 +3,12 @@
 const express = require('express');
 
 // Constants
-const PORT = 5000;
+const PORT = 6000;
 const HOST = '0.0.0.0';
 
 // App
 const app = express();
-app.get('/hello', (req, res) => {
+app.get('/test', (req, res) => {
   res.send('<h2 style="color: red"> Unimity Assessment Output<h2>');
 });
 
