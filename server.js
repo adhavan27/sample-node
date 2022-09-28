@@ -8,8 +8,8 @@ const HOST = '0.0.0.0';
 
 // App
 const app = express();
-app.get('/', (req, res) => {
-  res.send('<h2 style="color: green"> Unimity Assessment Output<h2>');
+app.get('/sample', (req, res) => {
+  res.send('<h2 style="color: red"> Unimity Assessment Output<h2>');
 });
 
 app.listen(PORT, HOST);
