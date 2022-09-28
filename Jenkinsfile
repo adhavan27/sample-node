@@ -33,7 +33,7 @@ pipeline{
         stage ("container deployment"){
             steps{
                 sh "docker rm -f nodejs"
-                sh "docker run -d -p 5000:8080 --name nodejs adhavan27/sample-node"
+                sh "docker run -d -p 6000:8080 --name nodejs adhavan27/sample-node"
             }
         }
     }
