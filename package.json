@@ -7,6 +7,13 @@
     "scripts": {
       "start": "node server.js"
     },
+      "devDependencies": {
+    "nodemon": "^1.18.9",
+    "sonarqube-scanner": "^2.7.0"
+  },
+      "engines": {
+    "node": "v10.6.0"
+  },
     "dependencies": {
       "express": "^4.16.1"
     }
